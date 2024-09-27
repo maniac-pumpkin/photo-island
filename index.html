@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Photo Island</title>
+  </head>
+
+  <body>
+    <header class="container">
+      <nav>
+        <h1>photo island</h1>
+        <input type="search" placeholder="What would you like to see?" />
+        <button>Upload photo</button>
+      </nav>
+    </header>
+
+    <main class="container">
+      <section class="image-container"></section>
+      <div class="load-more-btn-wrapper">
+        <button class="load-more-btn">Load more images</button>
+      </div>
+    </main>
+
+    <div class="submit-form-wrapper">
+      <form>
+        <h2>Upload a photo</h2>
+        <input
+          type="text"
+          name="input-text"
+          placeholder="Write a name for the photo..."
+          required
+        />
+        <input type="file" name="input-file" required />
+        <div class="buttons">
+          <button type="submit">Upload</button>
+          <button type="button">Cancel</button>
+        </div>
+      </form>
+    </div>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

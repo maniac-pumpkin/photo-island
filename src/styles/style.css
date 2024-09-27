@@ -1,0 +1,20 @@
+@import "./reset.css";
+@import "./global.css";
+@import "./container.css";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap");
+
+:root {
+  --black: #171a1f;
+  --white: #fefefe;
+  --soft-gray: #f3f4f6;
+}
+
+body {
+  font-family: "Roboto", system-ui;
+  font-weight: 500;
+  font-style: normal;
+  padding-top: 100px;
+  padding-bottom: 20px;
+  background-color: var(--white);
+  color: var(--black);
+}
